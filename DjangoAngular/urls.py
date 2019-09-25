@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import include,path
 from django.contrib.auth.models import User
 from rest_framework import routers, serializers, viewsets
-from   crud import views 
+from   api import views 
 
 
 #Define Routers to provide an easy way of automatically determine the URL Conf

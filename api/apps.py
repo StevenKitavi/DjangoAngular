@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class CrudConfig(AppConfig):
-    name = 'crud'
+class ApiConfig(AppConfig):
+    name = 'api'
